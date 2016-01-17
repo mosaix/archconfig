@@ -1,0 +1,52 @@
+i: /home/polarbear/Photos/Black-Wallpaper-High-Resolution-2014-210x145.jpg
+c: wbar --bpress --above-desk --pos top --grow --isize 24 --idist 10 --nanim 4 --zoomf 2.000000 --falfa 65
+t: /home/polarbear/.fonts/Coda/Coda-Heavy/10
+
+i: /usr/share/icons/hicolor/48x48/apps/chromium.png
+c: chromium
+t: Chrome
+
+i: /usr/share/icons/hicolor/48x48/apps/firefox.png
+c: firefox
+t: FireFox
+
+i: /usr/share/icons/hicolor/48x48/apps/sublime_text.png
+c: subl
+t: SUBLIME
+
+i: /home/polarbear/.config/cairo-dock/current_theme/icons/gedit.png
+c: gedit
+t: GEDIT
+
+i: /usr/share/icons/hicolor/48x48/apps/audacious.png
+c: audacious
+t: Audacious
+
+i: /usr/share/icons/Tango/48x48/apps/file-manager.png
+c: dbus-launch  pcmanfm
+t: File Manager
+
+i: /usr/share/icons/Tango/48x48/apps/terminal.png
+c: urxvt
+t: Terminal
+
+i: /usr/share/pixmaps/wbar/wbar.png
+c: wbar-config
+t: Config
+
+i: /usr/share/icons/Tango/48x48/devices/multimedia-player.png
+c: /home/polarbear/hdmi
+t: HDMI
+
+i: /usr/share/icons/Tango/64x64/apps/gucharmap.png
+c: /home/polarbear/hdmi-1024
+t: HDMI-1024
+
+i: /usr/share/pixmaps/gda-browser-5.0.png
+c: /home/polarbear/VGA
+t: VGA
+
+i: /usr/share/icons/Tango/48x48/actions/xfce-system-lock.png
+c: /home/polarbear/shutD
+t: ShutDown
+

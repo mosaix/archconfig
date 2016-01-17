@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=BAmbiance
+Comment=Ubuntu BAmbiance theme (B is for Beau Rules)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=BAmbiance
+MetacityTheme=BAmbiance
+IconTheme=ubuntu-mono-dark
+CursorTheme=DMZ-Black
+ButtonLayout=close,minimize,maximize:
+X-Ubuntu-UseOverlayScrollbars=true

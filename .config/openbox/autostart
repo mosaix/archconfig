@@ -1,0 +1,16 @@
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+tint2 &
+conky &
+conky -c ~/.conkyrc1 &
+feh --bg-fill ~/Photos/audi-sportback-concept-wallpaper-for-desktop_1920x1200_73396.jpg
+fcitx&
+wbar&
+volumeicon&
+caffeine &
+python2 ~/goagent-9dded9f9b414/local/proxy.py &
+aria2c -D&
+~/monitor.sh&
+
+

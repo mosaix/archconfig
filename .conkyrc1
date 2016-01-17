@@ -1,0 +1,97 @@
+######################
+# - Conky settings - #
+######################
+update_interval 1
+total_run_times 0
+net_avg_samples 1
+cpu_avg_samples 1
+
+imlib_cache_size 0
+double_buffer yes
+no_buffers yes
+
+#####################
+# - Text settings - #
+#####################
+use_xft yes
+xftfont Coda:size=9
+override_utf8_locale yes
+text_buffer_size 2048
+
+#############################
+# - Window specifications - #
+#############################
+own_window_class Conky
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+alignment top_right
+gap_x 2
+gap_y 40
+minimum_size 182 0
+maximum_width 182
+
+default_bar_size 60 8
+
+#########################
+# - Graphics settings - #
+#########################
+draw_shades no
+
+default_color cccccc
+
+color0 white
+color1 E07A1F
+color2 white
+
+
+TEXT
+Time & Date ${hr 2}
+${font Coda:size=26}${alignc}${time %H:%M}${font}
+${alignc}${time %A, %B %d, %Y}
+
+HDD ${hr 2}
+
+#${font conkycolors:size=15}i${font}${voffset -5}${goto 32}HDD temperature:${alignr}${color #FCAF3E}${exec hddtemp /dev/sda -n --unit=C} °C$color
+${font conkycolors:size=16}i${font} ${voffset -5}File System
+${voffset 4}${fs_free /}/${fs_size /} ${alignr}${fs_bar 8,60 /}
+${font conkycolors:size=16}i${font} ${voffset -5}Home
+${voffset 4}${fs_free /home}/${fs_size /home} ${alignr}${fs_bar 8,60 /home}
+#${font conkycolors:size=16}i${font} ${voffset -5}Windows 7
+#${voffset 4}${fs_free /media/windows7}/${fs_size /media/windows7} ${alignr}${fs_bar 8,60 /media/windows7}
+
+Battery: ${alignr}${battery BAT1}
+${battery_bar BAT1}
+
+Network ${hr 2}
+${if_up wlp1s0}
+${font conkycolors:size=14}k${font}${goto 32}${voffset -8}SSID: ${wireless_essid wlp1s0}
+${goto 32}Signal: ${wireless_link_qual wlp1s0}% ${alignr}${wireless_link_bar 8,60 wlp1s0}
+${voffset 4}${font conkycolors:size=14}x${font}${goto 32}${voffset -6}Up: ${upspeed wlp1s0}${font} ${alignr}${upspeedgraph wlp1s0 8,60 F57900 FCAF3E}
+${goto 32}Total: ${totalup wlp1s0}
+${voffset 4}${font conkycolors:size=14}u${font}${goto 32}${voffset -6}Down: ${downspeed wlp1s0}${font} ${alignr}${downspeedgraph wlp1s0 8,60 F57900 FCAF3E}
+${goto 32}Total: ${totaldown wlp1s0}
+${voffset 4}${font conkycolors:size=13}A${font}${goto 32}${voffset -8}Local IP: ${alignr}${addr wlp1s0}
+
+# |--enp3s0
+ENP3S0
+#${else}${if_up enp3s0}
+${if_up enp3s0}
+${voffset -13}${font conkycolors:size=14}x${font}${goto 32}${voffset -6}Up: ${upspeed enp3s0}${font} ${alignr}${upspeedgraph enp3s0 8,60 F57900 FCAF3E}
+${goto 32}Total: ${totalup enp3s0}
+${voffset -2}${font conkycolors:size=14}u${font}${goto 32}${voffset -6}Down: ${downspeed enp3s0}${font} ${alignr}${downspeedgraph enp3s0 8,60 F57900 FCAF3E}
+${goto 32}Total: ${totaldown enp3s0}
+${voffset -2}${font conkycolors:size=13}A${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr enp3s0}
+
+# |--PPP0
+#${endif}${else}${if_up ppp0}
+#${voffset -13}${font conkycolors Solid:size=14}q${font}${goto 32}${voffset -6}Up: ${upspeed ppp0}${font} ${alignr}${upspeedgraph ppp0 8,60 F57900 FCAF3E}
+#${goto 32}Total: ${totalup ppp0}
+#${voffset -2}${font conkycolors Solid:size=14}Q${font}${goto 32}${voffset -6}Down: ${downspeed ppp0}${font} ${alignr}${downspeedgraph ppp0 8,60 F57900 FCAF3E}
+
+#${goto 32}Total: ${totaldown ppp0}
+#${voffset -2}${font Poky:size=13}w${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr ppp0}
+#${endif}${else}${voffset 4}${font PizzaDude Bullets:size=12}4${font}${goto 32}Network Unavailable${endif}${endif}
+#${hr 2}

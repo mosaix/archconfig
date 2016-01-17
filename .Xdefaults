@@ -1,0 +1,59 @@
+URxvt.depth:32
+#URxvt.background:#073642
+URxvt*transparent:true
+URxvt*shading: 50
+urxvt*foreground: white
+urxvt*background: black
+#URxvt*iconFile: /usr/share/icons/oxygen/48x48/apps/kmplayer.png
+urxvt*iconFile: /usr/share/icons/oxygen/48x48/apps/kmplayer.png
+*color0:  #2E3436
+*color1:  #a40000
+*color2:  #4E9A06
+*color3:  #C4A000
+*color4:  #3465A4
+*color5:  #75507B
+*color6:  #ce5c00
+*color7:  #babdb9
+*color8:  #555753
+*color9:  #EF2929
+*color10: #8AE234
+*color11: #FCE94F
+*color12: #729FCF
+*color13: #AD7FA8
+*color14: #fcaf3e
+*color15: #EEEEEC
+#URxvt.background: [55]#000000
+#URxvt.foreground: White
+URxvt.geometry: 60x18+180+200
+#URxvt.colorBD:yellow
+#URxvt.colorUL:green
+#URxvt.cursorColor:red3
+URxvt.color0:black
+#URxvt.color1:red2
+#URxvt.color2:springgreen
+#URxvt.color3:wheat3
+#URxvt.color4:RoyalBlue
+#URxvt.color5:Magenta2
+#URxvt.color6:steelblue1
+#URxvt.color7:gray85
+#URxvt.color8:Gray50
+#URxvt.color9:orangered2
+#URxvt.color10:Green2
+URxvt.color11:lightgoldenrod2
+URxvt.color12:skyblue1
+URxvt.color13:pink1
+#URxvt.color14:Cyan2
+#URxvt.color15:Gray95
+URxvt.scrollBar:False
+URxvt.saveLines:3000
+URxvt.letterSpace: -2
+#URxvt.font:xft:DejaVu Sans Mono-8,xft:WenQuanYi Micro Hei-9
+g-9
+Rxvt.font:xft:Coda-9,xft:WenQuanYi Micro Hei-9
+g-9
+URxvt.boldFont:xft:DejaVu Sans Mono for Powerline-9:Bold,xft:WenQuanYi Micro Hei-9:Bold
+URxvt.preeditType:Root
+URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tab-fg: 11
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.tabbar-fg: 4

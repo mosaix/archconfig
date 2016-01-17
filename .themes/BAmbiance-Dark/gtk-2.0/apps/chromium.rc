@@ -1,0 +1,25 @@
+# ==============================================================================
+# CHROMIUM SPECIFIC SETTINGS
+# ==============================================================================
+
+style "chrome-gtk-frame"
+{
+  ChromeGtkFrame::frame-color = "#212121"
+  ChromeGtkFrame::inactive-frame-color = "#212121"
+
+  ChromeGtkFrame::frame-gradient-size = 16
+  ChromeGtkFrame::frame-gradient-color = "#595959"
+
+  ChromeGtkFrame::incognito-frame-color = lighter ("#212121")
+  ChromeGtkFrame::incognito-inactive-frame-color = lighter ("#212121")
+
+  ChromeGtkFrame::incognito-frame-gradient-size = 16
+  ChromeGtkFrame::incognito-frame-gradient-color = "#5e5e5e"
+
+  ChromeGtkFrame::scrollbar-trough-color = shade (0.912, @bg_color)
+  ChromeGtkFrame::scrollbar-slider-prelight-color = shade (1.04, @bg_color)
+  ChromeGtkFrame::scrollbar-slider-normal-color = @bg_color
+}
+
+class "ChromeGtkFrame" style "chrome-gtk-frame"
+

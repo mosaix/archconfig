@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "ThunderLixianExporter/ThunderLixianExporter.user.js" ],
+      "matches": [ "http://dynamic.cloud.vip.xunlei.com/*", "https://dynamic.cloud.vip.xunlei.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/logo128.png",
+      "16": "images/logo16.png",
+      "48": "images/logo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDr8pNPCShfLp0vIoW6IKOqB8fejtYQXDCPmER9sPocM6K1UkSMZgt8K1bZuWqvzcQH7SMl0J1xym8bogxf4KHS1Mkip4gYol84v6y7hh8yV4Q9t5Dcme0kdeXX0jocFOzIqkCaq3LQ3xBQqnMHu66tGvQCjCr0pydr1GVHvNYKQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

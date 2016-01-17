@@ -1,0 +1,90 @@
+# Tint2 config file
+# tint2rc_dzen
+
+# Background definitions
+# ID 1 For panel
+rounded = 0
+border_width = 0
+background_color = #333333 100
+border_color = #d0d0d0 60
+
+# ID 2 for tasks
+rounded = 0
+border_width = 0
+background_color = #777777 0
+border_color = #444444 0
+
+# ID 3 for active tasks
+rounded = 0
+border_width = 0
+background_color = #101010 100
+border_color = #eeeeee 0
+
+# Panel
+panel_monitor = all
+panel_position = bottom left horizontal
+panel_size = 856 20
+panel_margin = 0 0
+panel_padding = 5 0 0
+panel_dock = 0
+wm_menu = 0
+panel_layer = top
+panel_background_id = 1
+panel_items = T
+
+# Panel Autohide
+autohide = 0
+autohide_show_timeout = 0.3
+autohide_hide_timeout = 2
+autohide_height = 2
+strut_policy = follow_size
+
+# Taskbar
+taskbar_mode = single_desktop
+taskbar_padding = 5 0 5
+taskbar_background_id = 0
+taskbar_active_background_id = 0
+taskbar_name = 0
+
+# Tasks
+urgent_nb_of_blink = 8
+task_icon = 0
+task_text = 1
+task_centered = 1
+task_maximum_size = 130 20
+task_padding = 10 0
+task_background_id = 2
+task_active_background_id = 3
+task_urgent_background_id = 3
+task_iconified_background_id = 2
+task_tooltip = 1
+
+# Task Icons
+task_icon_asb = 70 0 0
+task_active_icon_asb = 100 0 0
+task_urgent_icon_asb = 100 0 0
+task_iconified_icon_asb = 70 0 0
+
+# Fonts
+task_font = droid sans 8
+task_font_color = #b0b0b0 70
+task_active_font_color = #b0b0b0 100
+task_urgent_font_color = #C23131 90
+task_iconified_font_color = #b0b0b0 70
+font_shadow = 0
+
+# Tooltips
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.7
+tooltip_hide_timeout = 0.3
+tooltip_background_id = 1
+tooltip_font = dejavu sans 9
+tooltip_font_color = #ffffff 80
+
+# Mouse
+mouse_middle = none
+mouse_right = none
+mouse_scroll_up = toggle
+mouse_scroll_down = none
+
+# End of config

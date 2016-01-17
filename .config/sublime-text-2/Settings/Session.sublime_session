@@ -1,0 +1,436 @@
+{
+	"folder_history":
+	[
+		"/home/polarbear/.config/sublime-text-2/Packages/Theme - Default",
+		"/home/polarbear/Codes/linux-3.14"
+	],
+	"last_window_id": 4,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 55.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 174.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/polarbear/Codes/linux-3.14/README",
+				"/home/polarbear/.config/tint2/tint2rc",
+				"/home/polarbear/.conkyrc.bak.2014.04.03",
+				"/home/polarbear/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/polarbear/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"enp3s0f0",
+					"wlp4s0"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"enp3s0",
+					"wlp1s0"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 209.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "[\n    {\n        \"class\": \"label_control\",\n        \"color\": [255, 255, 255],\n        \"shadow_color\": [24, 24, 24],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"button_control\",\n        \"content_margin\": [6, 5, 6, 6],\n        \"min_size\": [75, 0],\n        \"layer0.texture\": \"Theme - Default/full_button.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [6, 6],\n        \"layer1.texture\": \"Theme - Default/full_button_indented.png\",\n        \"layer1.opacity\": 0.0,\n        \"layer1.inner_margin\": [6, 6],\n        \"layer2.texture\": \"Theme - Default/blue_highlight.png\",\n        \"layer2.opacity\": { \"target\": 0.0, \"speed\": 1.33, \"interpolation\": \"smoothstep\" },\n        \"layer2.inner_margin\": [6, 6]\n    },\n    {\n        \"class\": \"button_control\",\n        \"attributes\": [\"pressed\"],\n        \"layer0.opacity\": 0,\n        \"layer1.opacity\": 1.0\n    },\n    {\n        \"class\": \"button_control\",\n        \"attributes\": [\"pressed\", \"hover\"],\n        \"layer2.opacity\": 0.0\n    },\n    {\n        \"class\": \"button_control\",\n        \"attributes\": [\"hover\"],\n        \"layer2.opacity\": 1.0\n    },\n\n    /** Small Icon Buttons **/\n    {\n        \"class\": \"icon_button_control\",\n        \"layer0.texture\": \"Theme - Default/middle_button.png\",\n        \"layer0.inner_margin\": [6, 6],\n        \"layer0.opacity\": 1.0,\n        \"layer2.texture\": \"Theme - Default/blue_highlight.png\",\n        \"layer2.opacity\": { \"target\": 0.0, \"speed\": 1.33, \"interpolation\": \"smoothstep\" },\n        \"content_margin\": [4, 4]\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"left\"],\n        \"layer0.texture\": \"Theme - Default/left_button.png\",\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"right\"],\n        \"layer0.texture\": \"Theme - Default/right_button.png\",\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"left\", \"right\"],\n        \"layer0.texture\": \"Theme - Default/mini_button.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.draw_center\": true\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"hover\"],\n        \"layer2.opacity\": 1.0\n    },\n    /*\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"hover\", \"selected\"],\n        \"layer2.opacity\": 0.0\n    },\n    */\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"selected\"],\n        \"layer0.texture\": \"Theme - Default/middle_button_selected.png\",\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"left\", \"selected\"],\n        \"layer0.texture\": \"Theme - Default/left_button_selected.png\",\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"right\", \"selected\"],\n        \"layer0.texture\": \"Theme - Default/right_button_selected.png\",\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"icon_button_control\",\n        \"attributes\": [\"right\", \"left\", \"selected\"],\n        \"layer0.texture\": \"Theme - Default/mini_button_selected.png\",\n        \"layer0.opacity\": 1.0\n    },\n\n    /** Scrollbars **/\n    {\n        \"class\": \"scroll_bar_control\",\n        \"layer0.texture\": \"Theme - Default/normal_bar_vertical.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [0, 6],\n        \"blur\": false\n    },\n    {\n        \"class\": \"scroll_bar_control\",\n        \"attributes\": [\"horizontal\"],\n        \"layer0.texture\": \"Theme - Default/normal_bar_horizontal.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [6, 0],\n        \"blur\": false\n    },\n    {\n        \"class\": \"scroll_corner_control\",\n        \"layer0.texture\": \"Theme - Default/normal_bar_corner.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [1, 1]\n    },\n    {\n        \"class\": \"puck_control\",\n        \"layer0.texture\": \"Theme - Default/normal_thumb_vertical.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [0, 10],\n        \"content_margin\": [8, 12],\n        \"blur\": false\n    },\n    {\n        \"class\": \"puck_control\",\n        \"attributes\": [\"horizontal\"],\n        \"layer0.texture\": \"Theme - Default/normal_thumb_horizontal.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [10, 0],\n        \"content_margin\": [12, 8],\n        \"blur\": false\n    },\n    {\n        \"class\": \"scroll_area_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"overlay\": true\n    },\n    {\n        \"class\": \"scroll_area_control\",\n        \"settings\": [\"!overlay_scroll_bars\"],\n        \"overlay\": false\n    },\n    {\n        \"class\": \"scroll_bar_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"layer0.texture\": \"Theme - Default/overlay_bar_vertical.png\",\n        \"layer0.inner_margin\": [0, 5],\n        \"blur\": true\n    },\n    {\n        \"class\": \"scroll_bar_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"attributes\": [\"horizontal\"],\n        \"layer0.texture\": \"Theme - Default/overlay_bar_horizontal.png\",\n        \"layer0.inner_margin\": [5, 0],\n        \"blur\": true\n    },\n    {\n        \"class\": \"puck_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"layer0.texture\": \"Theme - Default/overlay_thumb_vertical.png\",\n        \"layer0.inner_margin\": [0, 5],\n        \"content_margin\": [5, 20],\n        \"blur\": true\n    },\n    {\n        \"class\": \"puck_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"attributes\": [\"horizontal\"],\n        \"layer0.texture\": \"Theme - Default/overlay_thumb_horizontal.png\",\n        \"layer0.inner_margin\": [5, 0],\n        \"content_margin\": [20, 5],\n        \"blur\": true\n    },\n    {\n        \"class\": \"puck_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"attributes\": [\"dark\"],\n        \"layer0.texture\": \"Theme - Default/overlay_dark_thumb_vertical.png\"\n    },\n    {\n        \"class\": \"puck_control\",\n        \"settings\": [\"overlay_scroll_bars\"],\n        \"attributes\": [\"horizontal\", \"dark\"],\n        \"layer0.texture\": \"Theme - Default/overlay_dark_thumb_horizontal.png\"\n    },\n\n    {\n        \"class\": \"panel_control\",\n        \"layer0.texture\": \"Theme - Default/status_bar.png\",\n        \"layer0.inner_margin\": [2, 2, 2, 2],\n        \"content_margin\": [0, 1],\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"overlay_control\",\n        \"layer0.tint\": [64, 64, 64],\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [4, 4]\n    },\n    {\n        \"class\": \"popup_control\",\n        \"layer0.tint\": [64, 64, 64, 255],\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [2, 2]\n    },\n    {\n        \"class\": \"tool_tip_control\",\n        \"layer0.texture\": \"Theme - Default/tool_tip_background.png\",\n        \"layer0.inner_margin\": [2, 2],\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [3, 3]\n    },\n    {\n        \"class\": \"tool_tip_label_control\",\n        \"color\": [0, 0, 0, 255]\n    },\n    {\n        \"class\": \"disclosure_button_control\",\n        \"layer0.texture\": \"Theme - Default/arrow_right.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": 0,\n        \"layer1.texture\": \"Theme - Default/arrow_right_over.png\",\n        \"layer1.opacity\": 0.0,\n        \"layer1.inner_margin\": 0,\n        \"content_margin\": [9, 7, 8, 6]\n    },\n    {\n        \"class\": \"disclosure_button_control\",\n        \"parents\":\n        [\n            { \"class\": \"tree_row\", \"attributes\": [\"hover\"] }\n        ],\n        // \"attributes\": [\"hover\"],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 1.0\n    },\n    {\n        \"class\": \"disclosure_button_control\",\n        \"attributes\": [\"expanded\"],\n        \"layer0.texture\": \"Theme - Default/arrow_down.png\",\n        \"layer1.texture\": \"Theme - Default/arrow_down_over.png\"\n    },\n    {\n        \"class\": \"table_row\",\n        \"layer0.texture\": \"Theme - Default/row_highlight_wide.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer0.inner_margin\": [1, 1]\n    },\n    {\n        \"class\": \"table_row\",\n        \"attributes\": [\"selected\"],\n        \"layer0.opacity\": 0.5\n    },\n    {\n        \"class\": \"tree_row\",\n        \"layer0.texture\": \"Theme - Default/row_highlight_dark.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer0.inner_margin\": [1, 1]\n    },\n    {\n        \"class\": \"tree_row\",\n        \"attributes\": [\"selected\"],\n        \"layer0.opacity\": 0.8\n        // TODO: fix selected row color & shadow\n    },\n    {\n        \"class\": \"close_button\",\n        \"layer0.texture\": \"Theme - Default/light_x_bright.png\",\n        \"layer0.opacity\": 0.7,\n        \"layer0.inner_margin\": 0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"close_button\",\n        \"attributes\": [\"dirty\"],\n        \"layer0.texture\": \"Theme - Default/dirty_indicator.png\"\n    },\n    {\n        \"class\": \"close_button\",\n        \"attributes\": [\"hover\"],\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"sidebar_container\",\n        \"layer0.tint\": [80, 80, 80],\n        \"layer0.opacity\": 1.0,\n        \"layer0.draw_center\": false,\n        \"layer0.inner_margin\": [0, 0, 1, 0],\n        \"content_margin\": [0, 0, 1, 0]\n    },\n    {\n        \"class\": \"sidebar_tree\",\n        \"row_padding\": [8, 3],\n        \"indent\": 12,\n        \"indent_offset\": 17,\n        \"indent_top_level\": false,\n        \"layer0.tint\": [50, 50, 50], //230,230,230\n        \"layer0.opacity\": 1.0,\n        \"dark_content\": false\n    },\n    {\n        \"class\": \"sidebar_heading\",\n        \"color\": [200, 200, 200],  //130,130,130 headers (open files, folders)\n        \"font.bold\": true,\n        \"shadow_color\": [0, 0, 0],// 250 250 250\n        \"shadow_offset\": [0, 1]\n    },\n    {\n        \"class\": \"sidebar_heading\",\n        \"parents\":\n        [\n            { \"class\": \"tree_row\", \"attributes\": [\"selected\"] }\n        ],\n        \"shadow_color\": [160, 174, 192]\n    },\n    {\n        \"class\": \"sidebar_label\",\n        \"color\": [200, 200, 200]// 0 0 0  text in the sidebar tree\n        // , \"shadow_color\": [250, 250, 250], \"shadow_offset\": [0, 0]\n    },\n    {\n        \"class\": \"sidebar_label\",\n        \"parents\": [{\"class\": \"tree_row\", \"attributes\": [\"selected\"]}],\n        \"color\": [255, 255, 255]\n        // , \"shadow_color\": [60, 60, 60], \"shadow_offset\": [0, 1]\n    },\n    {\n        \"class\": \"minimap_control\",\n        \"viewport_color\": [68, 68, 68, 96]\n    },\n    {\n        \"class\": \"text_line_control\",\n        \"layer0.texture\": \"Theme - Default/input_field.png\",\n        \"layer0.tint\": 0,\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [4, 5, 4, 3],\n        \"content_margin\": [3, 3, 3, 3]\n    },\n    {\n        \"class\": \"status_bar\",\n        \"layer0.texture\": \"Theme - Default/status_bar.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": [2, 2],\n        \"content_margin\": [4, 3, 4, 3]\n    },\n    {\n        \"class\": \"status_button\",\n        \"min_size\": [100, 0]\n    },\n\n    /** Quick Panel **/\n    {\n        \"class\": \"quick_panel\",\n        \"row_padding\": [2, 1],\n        \"layer0.tint\": [25, 25, 25],\n        \"layer0.opacity\": 1.0,\n        \"dark_content\": false\n    },\n    {\n        \"class\": \"quick_panel_row\",\n        \"layer0.texture\": \"Theme - Default/panel_row.png\",\n        \"layer0.inner_margin\": [2, 2, 2, 2],\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"quick_panel_row\",\n        \"attributes\": [\"selected\"],\n        \"layer0.texture\": \"Theme - Default/panel_row_selected.png\"\n    },\n    {\n        \"class\": \"quick_panel_label\",\n        \"fg\": [200, 200, 200, 255],\n        \"match_fg\": [225, 225, 225, 255],\n        \"bg\": [87, 87, 87, 255],\n        \"selected_fg\": [200, 200, 200, 255],\n        \"selected_match_fg\": [255, 255, 255, 255],\n        \"selected_bg\": [64, 64, 64, 255]\n    },\n    {\n        \"class\": \"quick_panel_path_label\",\n        \"fg\": [255, 255, 255, 100],\n        \"match_fg\": [255, 255, 255, 255],\n        \"bg\": [87, 87, 87, 255],\n        \"selected_fg\": [255, 255, 255, 100],\n        \"selected_match_fg\": [255, 255, 255, 255],\n        \"selected_bg\": [64, 64, 64, 255]\n    },\n    {\n        \"class\": \"quick_panel_score_label\",\n        \"fg\": [28, 177, 239, 255],\n        \"bg\": [87, 87, 87, 255],\n        \"selected_fg\": [166, 229, 255, 255],\n        \"selected_bg\": [64, 64, 64, 255]\n    },\n    {\n        \"class\": \"mini_quick_panel_row\",\n        \"layer0.texture\": \"Theme - Default/panel_row.png\",\n        \"layer0.inner_margin\": [2, 2, 2, 2],\n        \"layer0.opacity\": 1.0\n    },\n    {\n        \"class\": \"mini_quick_panel_row\",\n        \"attributes\": [\"selected\"],\n        \"layer0.texture\": \"Theme - Default/panel_row_selected.png\"\n    },\n\n    {\n        \"class\": \"auto_complete\",\n        \"row_padding\": [2, 1],\n        \"layer0.tint\": [255, 255, 255],\n        \"layer0.opacity\": 1.0,\n        \"dark_content\": false\n    },\n    {\n        \"class\": \"auto_complete_label\",\n        \"fg\": [72, 72, 72, 255],\n        \"match_fg\": [0, 0, 0, 255],\n        \"bg\": [255, 255, 255, 255],\n        \"selected_fg\": [72, 72, 72, 255],\n        \"selected_match_fg\": [0, 0, 0, 255],\n        \"selected_bg\": [156, 185, 223, 255]\n    },\n\n    {\n        \"class\": \"sheet_container_control\",\n        \"layer0.tint\": [64, 64, 64],\n        \"layer0.opacity\": 1.0\n    },\n\n    {\n        \"class\": \"tabset_control\",\n\n        \"layer0.opacity\": 1.0,\n        \"tint_index\": 0,\n\n        \"layer1.texture\": \"Theme - Default/tabset_background_transparent.png\",\n        \"layer1.inner_margin\": [2, 6],\n        \"layer1.opacity\": 1.0,\n\n        \"content_margin\": [3, 0, 3, 1],\n        \"tab_overlap\": 17,\n        \"tab_width\": 180,\n        \"tab_min_width\": 48,\n        \"tab_height\": 35,\n        \"mouse_wheel_switch\": false\n    },\n    {\n        \"class\": \"tabset_control\",\n        \"settings\": [\"mouse_wheel_switches_tabs\"],\n        \"mouse_wheel_switch\": true\n    },\n    {\n        // Tabset override for light colors\n        \"class\": \"tabset_control\",\n        \"attributes\": [\"file_light\"],\n        \"layer1.texture\": \"Theme - Default/light_tabset_background_transparent.png\"\n    },\n    {\n        // Tabset override for medium-dark colors\n        \"class\": \"tabset_control\",\n        \"attributes\": [\"file_medium_dark\"],\n        \"layer1.opacity\": 1.0,\n        \"layer1.texture\": \"Theme - Default/medium_dark_tabset_background_transparent.png\"\n    },\n    {\n        // Tabset override for dark colors\n        \"class\": \"tabset_control\",\n        \"attributes\": [\"file_dark\"],\n        \"layer1.opacity\": 1.0,\n        \"layer1.texture\": \"Theme - Default/dark_tabset_background_transparent.png\"\n    },\n\n    /** Tabs **/\n    {\n        \"class\": \"tab_control\",\n\n        \"layer0.texture\": \"Theme - Default/tab_mask_152_gradient2.png\",\n        \"layer0.inner_margin\": [22, 4],\n        \"layer0.opacity\": 1.0,\n        \"tint_index\": 0,        // tint layer 0\n        \"tint_modifier\": [255, 0, 0, 0],\n\n        \"layer1.texture\": \"\",\n        \"layer1.inner_margin\": [22, 4],\n        \"layer1.opacity\": 0.0,\n\n        \"layer2.inner_margin\": [22, 4],\n\n        \"content_margin\": [24, 8, 23, 4],\n        \"max_margin_trim\": 6,\n        \"hit_test_level\": 0.4\n    },\n\n    /** Tabs (file color overrides) **/\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"file_light\"],\n        \"layer2.texture\": \"Theme - Default/light_unselected_tab_bg2.png\",\n        \"layer2.opacity\": 0.7\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"file_medium\"],\n        \"layer2.texture\": \"Theme - Default/medium_unselected_tab_bg.png\",\n        \"layer2.opacity\": 0.5\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"file_medium_dark\"],\n        \"tint_modifier\": [255, 255, 255, 24],\n        \"layer2.texture\": \"Theme - Default/medium_dark_unselected_tab_bg2.png\",\n        \"layer2.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"file_dark\"],\n        \"tint_modifier\": [255, 255, 255, 230],\n        \"layer0.texture\": \"Theme - Default/dark_tab_mask3.png\",\n        \"layer2.texture\": \"Theme - Default/dark_unselected_tab_bg2.png\",\n        \"layer2.opacity\": 1.0\n    },\n\n    /** Selected Tabs **/\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"selected\"],\n        \"layer0.texture\": \"Theme - Default/tab_mask_white.png\",\n        \"layer1.opacity\": 0.0\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_light\"],\n        \"layer2.texture\": \"Theme - Default/light_selected_tab_bg.png\",\n        \"layer2.opacity\": 0.8\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_medium\"],\n        \"layer2.texture\": \"Theme - Default/medium_selected_tab_bg.png\",\n        \"layer2.opacity\": 0.5\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_medium_dark\"],\n        \"tint_modifier\": [0, 0, 0, 0],\n        \"layer2.texture\": \"Theme - Default/medium_dark_selected_tab_bg.png\",\n        \"layer2.opacity\": 0.7\n    },\n    {\n        \"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_dark\"],\n        \"tint_modifier\": [0, 0, 0, 0],\n        \"layer2.texture\": \"Theme - Default/dark_selected_tab_bg.png\",\n        \"layer2.opacity\": 1,\n        \"layer0.opacity\": 1.0\n    },\n\n    /** Tab Labels **/\n    {\n        \"class\": \"tab_label\",\n        \"fg\": [0, 0, 0, 255],\n        \"shadow_color\": [255, 255, 255, 80],\n        \"shadow_offset\": [0, 1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_medium\"]}],\n        \"fg\": [255, 255, 255, 180],\n        \"shadow_color\": [0, 0, 0, 100],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"selected\"]}],\n        \"fg\": [0, 0, 0, 255],\n        \"shadow_color\": [255, 255, 255, 50],\n        \"shadow_offset\": [0, 1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_medium\"]}],\n        \"fg\": [255, 255, 255, 255],\n        \"shadow_color\": [0, 0, 0, 100],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_medium_dark\"]}],\n        \"fg\": [255, 255, 255, 140],\n        \"shadow_color\": [0, 0, 0, 100],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_medium_dark\"]}],\n        \"fg\": [255, 255, 255, 230],\n        \"shadow_color\": [0, 0, 0, 255],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_dark\"]}],\n        \"fg\": [255, 255, 255, 160],\n        \"shadow_color\": [0, 0, 0, 100],\n        \"shadow_offset\": [0, -1]\n    },\n    {\n        \"class\": \"tab_label\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"selected\", \"file_dark\"]}],\n        \"fg\": [255, 255, 255, 230],\n        \"shadow_color\": [0, 0, 0, 255],\n        \"shadow_offset\": [0, -1]\n    },\n\n    /** Tab Close Buttons **/\n    {\n        \"class\": \"tab_close_button\",\n        \"content_margin\": [0, 0],\n        \"layer0.texture\": \"Theme - Default/grey_x.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer0.inner_margin\": 0,\n        \"layer1.texture\": \"Theme - Default/dark_x.png\",\n        \"layer1.opacity\": 0.0,\n        \"layer2.texture\": \"Theme - Default/grey_x_light_shadow.png\",\n        \"layer2.opacity\": 1.0,\n        \"layer3.texture\": \"Theme - Default/dark_x_light_shadow.png\",\n        \"layer3.opacity\": 0.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"settings\": [\"show_tab_close_buttons\"],\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"dirty\"]}],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/dirty_circle.png\",\n        \"layer3.opacity\": 0.5\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"selected\"],\n        \"layer0.opacity\": 1.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.opacity\": 0.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"hover\"],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/dark_x_light_shadow.png\",\n        \"layer3.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"hover\", \"dirty\"],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/dirty_circle.png\",\n        \"layer3.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"hover\", \"selected\"],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 1.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.opacity\": 0.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_medium_dark\"]}],\n        \"layer3.texture\": \"Theme - Default/light_x.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"dirty\", \"file_medium_dark\"]}],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/dirty_circle_light.png\",\n        \"layer3.opacity\": 0.5\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"hover\"],\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_medium_dark\"]}],\n        \"layer3.texture\": \"Theme - Default/light_x_bright.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_dark\"]}],\n        \"layer3.texture\": \"Theme - Default/light_x.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.opacity\": 1.0\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"dirty\", \"file_dark\"]}],\n        \"layer3.texture\": \"Theme - Default/light_x.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/dirty_circle_light.png\",\n        \"layer3.opacity\": 0.5\n    },\n    {\n        \"class\": \"tab_close_button\",\n        \"attributes\": [\"hover\"],\n        \"parents\": [{\"class\": \"tab_control\", \"attributes\": [\"file_dark\"]}],\n        \"layer3.texture\": \"Theme - Default/light_x_bright.png\",\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 0.0,\n        \"layer2.opacity\": 0.0,\n        \"layer3.texture\": \"Theme - Default/light_x.png\",\n        \"layer3.opacity\": 1.0\n    },\n\n    {\n        \"class\": \"fold_button_control\",\n        \"layer0.texture\": \"Theme - Default/arrow_right.png\",\n        \"layer0.opacity\": 1.0,\n        \"layer0.inner_margin\": 0,\n        \"layer1.texture\": \"Theme - Default.arrow_right.png\",\n        \"layer1.opacity\": 0.0,\n        \"layer1.inner_margin\": 0,\n        \"content_margin\": [9, 7, 8, 6]\n    },\n    {\n        \"class\": \"fold_button_control\",\n        \"attributes\": [\"hover\"],\n        \"layer0.opacity\": 0.0,\n        \"layer1.opacity\": 1.0\n    },\n    {\n        \"class\": \"fold_button_control\",\n        \"attributes\": [\"expanded\"],\n        \"layer0.texture\": \"Theme - Default/arrow_down.png\",\n        \"layer1.texture\": \"Theme - Default/arrow_down_over.png\"\n    },\n\n    {\n        \"class\": \"grid_layout_control\",\n        \"border_size\": 1,\n        \"border_color\": [80, 80, 80]\n    },\n\n    {\n        \"class\": \"icon_regex\",\n        \"layer0.texture\": \"Theme - Default/icons/find_regex.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_case\",\n        \"layer0.texture\": \"Theme - Default/icons/find_case.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_highlight\",\n        \"layer0.texture\": \"Theme - Default/icons/find_highlight.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_in_selection\",\n        \"layer0.texture\": \"Theme - Default/icons/find_inselection.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_reverse\",\n        \"layer0.texture\": \"Theme - Default/icons/find_reverse.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_whole_word\",\n        \"layer0.texture\": \"Theme - Default/icons/find_wholeword.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_wrap\",\n        \"layer0.texture\": \"Theme - Default/icons/find_wrap.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_preserve_case\",\n        \"layer0.texture\": \"Theme - Default/icons/replace_preserve_case.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_context\",\n        \"layer0.texture\": \"Theme - Default/icons/context.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    },\n    {\n        \"class\": \"icon_use_buffer\",\n        \"layer0.texture\": \"Theme - Default/icons/use_buffer.png\",\n        \"layer0.opacity\": 1.0,\n        \"content_margin\": [8, 8]\n    }\n]",
+					"file": "/home/polarbear/.config/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+					"file_size": 25370,
+					"file_write_time": 1396497725000000,
+					"settings":
+					{
+						"buffer_size": 25370,
+						"line_ending": "Unix",
+						"name": "["
+					}
+				},
+				{
+					"file": "/home/polarbear/.Xdefaults",
+					"settings":
+					{
+						"buffer_size": 1451,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/polarbear/.conkyrc",
+					"settings":
+					{
+						"buffer_size": 4988,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 55.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 174.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/polarbear/.Xresources",
+				"/home/polarbear/.conkyrc1",
+				"/home/polarbear/Notebooks/Notes/Home.txt",
+				"/media/b471cde8-2a15-44e7-acce-e9a2a54511a6/etc/netctl/wlan0-JYGAME",
+				"/media/5207945d-e73c-4943-aa37-ee28769e87d2/htpasswd",
+				"/media/b471cde8-2a15-44e7-acce-e9a2a54511a6/etc/netctl/eth0",
+				"/media/-=DATA=-/Music/Chopin - Nocturnes [Hewitt]/Chopin - Nocturnes [Hewitt] (Disc 2).cue",
+				"/home/polarbear/Plan/keys/20.200.ovpn",
+				"/media/b471cde8-2a15-44e7-acce-e9a2a54511a6/etc/netctl/examples/ethernet-custom",
+				"/media/b471cde8-2a15-44e7-acce-e9a2a54511a6/etc/netctl/wlan0-QSW",
+				"/media/b471cde8-2a15-44e7-acce-e9a2a54511a6/etc/netctl/wlan0-JYGAME-auto",
+				"/home/polarbear/Plan/keys/server.conf",
+				"/home/polarbear/Downloads/README",
+				"/home/polarbear/Downloads/README (1)",
+				"/media/-=DATA=-/Movie/傲骨贤妻.The.Good.Wife.S05E13.中英字幕.HR-HDTV.AC3.1024X576.x264.mkv.aria2",
+				"/home/polarbear/Codes/linux-3.14/README",
+				"/home/polarbear/.config/tint2/tint2rc",
+				"/home/polarbear/.conkyrc.bak.2014.04.03",
+				"/home/polarbear/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/polarbear/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"enp3s0f0",
+					"wlp4s0"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"enp3s0",
+					"wlp1s0"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/polarbear/Codes/linux-3.14"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/polarbear/.config/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+							"settings":
+							{
+								"buffer_size": 25370,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										24110,
+										24110
+									]
+								],
+								"settings":
+								{
+									"auto_name": "[",
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 17072.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/polarbear/.Xdefaults",
+							"settings":
+							{
+								"buffer_size": 1451,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										384,
+										384
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 704.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/polarbear/.conkyrc",
+							"settings":
+							{
+								"buffer_size": 4988,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3167,
+										3167
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1716.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,189,59,829,539,1400,1050",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 209.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

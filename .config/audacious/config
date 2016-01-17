@@ -1,0 +1,15 @@
+
+[alsa]
+mixer-element=Master
+
+[audgui]
+filebrowser_win=116,129,700,450
+
+[gtkui]
+column_expand=1,1,1,0,0
+column_widths=-1,-1,-1,-1,-1
+player_x=414
+player_y=131
+
+[gtkui-layout]
+item_count=0
